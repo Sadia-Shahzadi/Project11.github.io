@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(img/header-image.png);
+    padding:10px 8%;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nog{
+    cursor: pointer;
+    width: 150px;
+}
+button{
+    margin: 0 12px;
+    border: 0;
+    border-radius: 4px;
+    background: red;
+    color: white;
+    outline: 0;
+    font-size: 12px;
+    
+}
+.butt{
+    margin-left: 15px;
+}
+.bush{
+    padding:7px 20px;
+    cursor: pointer;
+
+}
+.down{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+.down img{
+    width: 12px;
+}
+.head{
+    text-align: center;
+    margin-top: 15%;
+}
+.head h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.head p{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.head h4{
+    margin-top: 12px;
+    /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+font-family: 'Tajawal', sans-serif;
+font-size: 20px;
+}
+.ema{
+    margin-top: 25px;
+    padding-right: 564px ;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size:15px ;
+    padding-left: 23px;
+    align-items: center;
+    border: 1px solid red;
+}
+.ema:hover{
+    border: 4px solid red;
+}
+.another{ 
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.page{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+ }
+ .page h1{
+    font-size: 34px;
+    padding-bottom: 14px;
+    font-family: sans-serif;
+}
+.text{
+    flex-basis: 50%;
+}
+.text img{
+    float: right;
+    height: 50vh;
+    margin-bottom: 20px;
+    display: block;
+    background: linear-gradient(rgba(0.0,0,0.7),rgb(221, 221, 230));
+    margin-right: 95px;
+
+} 
+hr{
+    border: 2px solid white;
+}
+.faq h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 34px 0;
+    font-size: 40px;
+}
+.faq{
+    text-align: center;
+    padding: 34px 12%;
+}
+.acc {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.acc li{
+    width: 100%;
+    padding: 5px;
+}
+.acc li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+}
+label::after{
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.acc .content{
+    background: #303030;
+    text-align: left;
+    padding: 0px 23px;
+    max-height: 0;
+    overflow: hidden ;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.acc input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+} 
+
+.acc input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.heads{
+    text-align: center;
+}
+.heads p{
+    font-size: 20px;
+}
+.pops{
+    margin-left: 27%;
+    padding-top: 13px;
+    color: red;
+    margin-bottom: 50px;
+}
+.footer{
+    padding: 50px 15% 10px; 
+    border-top: 6px solid #333;
+    color:#777;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer .col{
+     flex-grow: 1;
+     flex-basis: 25%;
+     margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.downs{
+    padding:9px 19px;
+    width: 124px;
+    color: #777;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid #777;
+
+}
+.downs img{
+    width: 16px;
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+
